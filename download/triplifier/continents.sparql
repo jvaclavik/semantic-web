@@ -1,0 +1,26 @@
+PREFIX dbp: <http://dbpedia.org/ontology/>
+PREFIX dbp-pp: <http://dbpedia.org/ontology/PopulatedPlace/>
+PREFIX dbp-prop: <http://dbpedia.org/property/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX my: <http://janvaclavik.cz/swe/ontology/>
+PREFIX schema: <http://schema.org/>
+
+CONSTRUCT {
+
+    
+  ?CONTINENT_URI a dbp:Continent;
+    rdfs:label ?ContinentWithLang;
+    dbp-pp:areaTotal ?Areakm;
+    dbp-pp:density ?DensityPeopleperkm;
+    dbp-prop:population ?Totalpopulation;
+    .
+
+}
+FROM <file:../cache/continents.csv>
+WHERE {
+  BIND (URI(REPLACE(CONCAT('http://janvaclavik.cz/swe/page/continent/', ?Continent), ' ', '_')) AS ?CONTINENT_URI)  
+  BIND (STRLANG(?Continent, "en") AS ?ContinentWithLang)
+
+}
+OFFSET 1

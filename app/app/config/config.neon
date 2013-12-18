@@ -1,0 +1,40 @@
+#
+# SECURITY WARNING: it is CRITICAL that this file & directory are NOT accessible directly via a web browser!
+#
+# If you don't protect this directory from direct web access, anybody will be able to see your passwords.
+# http://nette.org/security-warning
+#
+common:
+	parameters:
+
+	php:
+		date.timezone: Europe/Prague
+		# zlib.output_compression: yes
+
+	extensions:
+		autowired: Kdyby\Autowired\DI\AutowiredExtension
+		sesame: stekycz\NetteSesame\DI\SesameExtension
+		curl: Kdyby\Curl\DI\CurlExtension
+
+	nette:
+		application:
+			errorPresenter: Error
+		container:
+			accessors: true
+
+		session:
+			expiration: 14 days
+
+	sesame:
+		dsl: http://localhost:8081/openrdf-sesame
+		repository: swe2
+
+	services:
+		routerFactory: RouterFactory
+		router: @routerFactory::createRouter
+
+		- swe\model\SparqlQueries
+	factories:
+production < common:
+
+development < common:

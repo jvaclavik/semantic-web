@@ -1,0 +1,252 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "9188c8a94aa1b91bcca15328a80838a1",
+    "packages": [
+        {
+            "name": "kdyby/autowired",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Kdyby/Autowired.git",
+                "reference": "284f0768c0c00ce8d959cd721089b7cbd9ef89e5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Kdyby/Autowired/zipball/284f0768c0c00ce8d959cd721089b7cbd9ef89e5",
+                "reference": "284f0768c0c00ce8d959cd721089b7cbd9ef89e5",
+                "shasum": ""
+            },
+            "require": {
+                "nette/nette": "@dev"
+            },
+            "require-dev": {
+                "nette/tester": "@dev"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Kdyby\\Autowired": "src/"
+                },
+                "classmap": [
+                    "src/Kdyby/Autowired/exceptions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause",
+                "GPL-2.0",
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Filip Procházka",
+                    "homepage": "http://filip-prochazka.com"
+                }
+            ],
+            "description": "Syntax sugar for working with services in Nette Framework",
+            "homepage": "http://kdyby.org",
+            "keywords": [
+                "autowire",
+                "di",
+                "kdyby",
+                "nette"
+            ],
+            "time": "2013-11-19 18:51:47"
+        },
+        {
+            "name": "kdyby/curl",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Kdyby/Curl.git",
+                "reference": "88a800bfaa606a253e28966f82be0d88305d9182"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Kdyby/Curl/zipball/88a800bfaa606a253e28966f82be0d88305d9182",
+                "reference": "88a800bfaa606a253e28966f82be0d88305d9182",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "nette/nette": "@dev"
+            },
+            "require-dev": {
+                "nette/tester": "@dev"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Kdyby\\Curl": "src/"
+                },
+                "classmap": [
+                    "src/Kdyby/Curl/exceptions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause",
+                "GPL-2.0",
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Filip Procházka",
+                    "homepage": "http://filip-prochazka.com"
+                }
+            ],
+            "description": "Curl wrapper for Nette Framework",
+            "homepage": "http://kdyby.org",
+            "keywords": [
+                "curl",
+                "http",
+                "nette"
+            ],
+            "time": "2013-10-07 16:31:02"
+        },
+        {
+            "name": "nette/nette",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nette/nette.git",
+                "reference": "16a9af8573845e91c944aa03551baf48024b7065"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nette/nette/zipball/16a9af8573845e91c944aa03551baf48024b7065",
+                "reference": "16a9af8573845e91c944aa03551baf48024b7065",
+                "shasum": ""
+            },
+            "require": {
+                "ext-iconv": "*",
+                "ext-tokenizer": "*",
+                "php": ">=5.3.1"
+            },
+            "require-dev": {
+                "nette/tester": "@dev"
+            },
+            "suggest": {
+                "ext-fileinfo": "*",
+                "ext-gd": "*",
+                "ext-mbstring": "*",
+                "ext-memcache": "*",
+                "ext-pdo": "*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.2-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "Nette/"
+                ],
+                "files": [
+                    "Nette/common/shortcuts.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause",
+                "GPL-2.0",
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "David Grudl",
+                    "homepage": "http://davidgrudl.com"
+                },
+                {
+                    "name": "Nette Community",
+                    "homepage": "http://nette.org/contributors"
+                }
+            ],
+            "description": "Nette Framework - innovative framework for fast and easy development of secured web applications in PHP. Write less, have cleaner code and your work will bring you joy.",
+            "homepage": "http://nette.org",
+            "keywords": [
+                "Forms",
+                "database",
+                "dbal",
+                "debugging",
+                "framework",
+                "images",
+                "latte",
+                "mailing",
+                "micro",
+                "mvc",
+                "neon",
+                "templating"
+            ],
+            "time": "2013-12-17 04:11:35"
+        },
+        {
+            "name": "stekycz/nette-sesame",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/stekycz/NetteSesame.git",
+                "reference": "bb3ee2bfffa396de5c97b6a014686912d52487f0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/stekycz/NetteSesame/zipball/bb3ee2bfffa396de5c97b6a014686912d52487f0",
+                "reference": "bb3ee2bfffa396de5c97b6a014686912d52487f0",
+                "shasum": ""
+            },
+            "require": {
+                "kdyby/curl": ">=1.0.0",
+                "nette/nette": ">=2.0.0"
+            },
+            "type": "nette-addon",
+            "autoload": {
+                "psr-0": {
+                    "stekycz\\NetteSesame": "src/"
+                },
+                "classmap": [
+                    "src/stekycz/NetteSesame/exceptions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Martin Štekl",
+                    "email": "martin.stekl@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP Client library for Nette Framework that wraps the Sesame Framework by OpenRDF",
+            "keywords": [
+                "RDF",
+                "nette",
+                "sesame"
+            ],
+            "time": "2013-12-12 00:54:12"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "nette/nette": 20,
+        "kdyby/autowired": 20,
+        "stekycz/nette-sesame": 20
+    },
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}

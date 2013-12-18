@@ -1,0 +1,2502 @@
+@prefix schema:  <http://schema.org/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbp-pp:  <http://dbpedia.org/ontology/PopulatedPlace/> .
+@prefix dbp:     <http://dbpedia.org/ontology/> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dbp-prop:  <http://dbpedia.org/property/> .
+@prefix my:      <http://janvaclavik.cz/swe/ontology/> .
+
+<http://janvaclavik.cz/swe/page/country/Tanzania>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Tanzania"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "945087" ;
+      dbp-prop:gdpNominalPerCapita
+                    "600" ;
+      dbp-prop:populationEstimateYear
+                    "37445392" .
+
+<http://janvaclavik.cz/swe/page/country/Laos>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Laos"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "236800" ;
+      dbp-prop:gdpNominalPerCapita
+                    "1700" ;
+      dbp-prop:populationEstimateYear
+                    "6368481" .
+
+<http://janvaclavik.cz/swe/page/country/Ukraine>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Ukraine"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Europe"@en ;
+      dbp-pp:areaTotal  "603700" ;
+      dbp-prop:gdpNominalPerCapita
+                    "5400" ;
+      dbp-prop:populationEstimateYear
+                    "46710816" .
+
+<http://janvaclavik.cz/swe/page/country/Macedonia>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Macedonia"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Europe"@en ;
+      dbp-pp:areaTotal  "25333" ;
+      dbp-prop:gdpNominalPerCapita
+                    "6700" ;
+      dbp-prop:populationEstimateYear
+                    "2050554" .
+
+<http://janvaclavik.cz/swe/page/country/Indonesia>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Indonesia"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "1919440" ;
+      dbp-prop:gdpNominalPerCapita
+                    "3200" ;
+      dbp-prop:populationEstimateYear
+                    "245452739" .
+
+<http://janvaclavik.cz/swe/page/country/Saint_Kitts_and_Nevis>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Saint Kitts and Nevis"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "South America"@en ;
+      dbp-pp:areaTotal  "261" ;
+      dbp-prop:gdpNominalPerCapita
+                    "8800" ;
+      dbp-prop:populationEstimateYear
+                    "39129" .
+
+<http://janvaclavik.cz/swe/page/country/Turks_and_Caicos_Is>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Turks and Caicos Is"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "South America"@en ;
+      dbp-pp:areaTotal  "430" ;
+      dbp-prop:gdpNominalPerCapita
+                    "9600" ;
+      dbp-prop:populationEstimateYear
+                    "21152" .
+
+<http://janvaclavik.cz/swe/page/country/Dominica>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Dominica"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "South America"@en ;
+      dbp-pp:areaTotal  "754" ;
+      dbp-prop:gdpNominalPerCapita
+                    "5400" ;
+      dbp-prop:populationEstimateYear
+                    "68910" .
+
+<http://janvaclavik.cz/swe/page/country/Faroe_Islands>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Faroe Islands"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Europe"@en ;
+      dbp-pp:areaTotal  "1399" ;
+      dbp-prop:gdpNominalPerCapita
+                    "22000" ;
+      dbp-prop:populationEstimateYear
+                    "47246" .
+
+<http://janvaclavik.cz/swe/page/country/Belarus>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Belarus"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Europe"@en ;
+      dbp-pp:areaTotal  "207600" ;
+      dbp-prop:gdpNominalPerCapita
+                    "6100" ;
+      dbp-prop:populationEstimateYear
+                    "10293011" .
+
+<http://janvaclavik.cz/swe/page/country/Bulgaria>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Bulgaria"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Europe"@en ;
+      dbp-pp:areaTotal  "110910" ;
+      dbp-prop:gdpNominalPerCapita
+                    "7600" ;
+      dbp-prop:populationEstimateYear
+                    "7385367" .
+
+<http://janvaclavik.cz/swe/page/country/Micronesia,_Fed._St.>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Micronesia, Fed. St."@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Oceania"@en ;
+      dbp-pp:areaTotal  "702" ;
+      dbp-prop:gdpNominalPerCapita
+                    "2000" ;
+      dbp-prop:populationEstimateYear
+                    "108004" .
+
+<http://janvaclavik.cz/swe/page/country/Bhutan>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Bhutan"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "47000" ;
+      dbp-prop:gdpNominalPerCapita
+                    "1300" ;
+      dbp-prop:populationEstimateYear
+                    "2279723" .
+
+<http://janvaclavik.cz/swe/page/country/Cyprus>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Cyprus"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "9250" ;
+      dbp-prop:gdpNominalPerCapita
+                    "19200" ;
+      dbp-prop:populationEstimateYear
+                    "784301" .
+
+<http://janvaclavik.cz/swe/page/country/Netherlands_Antilles>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Netherlands Antilles"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "South America"@en ;
+      dbp-pp:areaTotal  "960" ;
+      dbp-prop:gdpNominalPerCapita
+                    "11400" ;
+      dbp-prop:populationEstimateYear
+                    "221736" .
+
+<http://janvaclavik.cz/swe/page/country/San_Marino>
+      rdf:type      dbp:Country ;
+      rdfs:label    "San Marino"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Europe"@en ;
+      dbp-pp:areaTotal  "61" ;
+      dbp-prop:gdpNominalPerCapita
+                    "34600" ;
+      dbp-prop:populationEstimateYear
+                    "29251" .
+
+<http://janvaclavik.cz/swe/page/country/Liberia>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Liberia"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "111370" ;
+      dbp-prop:gdpNominalPerCapita
+                    "1000" ;
+      dbp-prop:populationEstimateYear
+                    "3042004" .
+
+<http://janvaclavik.cz/swe/page/country/Nigeria>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Nigeria"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "923768" ;
+      dbp-prop:gdpNominalPerCapita
+                    "900" ;
+      dbp-prop:populationEstimateYear
+                    "131859731" .
+
+<http://janvaclavik.cz/swe/page/country/El_Salvador>
+      rdf:type      dbp:Country ;
+      rdfs:label    "El Salvador"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "South America"@en ;
+      dbp-pp:areaTotal  "21040" ;
+      dbp-prop:gdpNominalPerCapita
+                    "4800" ;
+      dbp-prop:populationEstimateYear
+                    "6822378" .
+
+<http://janvaclavik.cz/swe/page/country/Portugal>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Portugal"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Europe"@en ;
+      dbp-pp:areaTotal  "92391" ;
+      dbp-prop:gdpNominalPerCapita
+                    "18000" ;
+      dbp-prop:populationEstimateYear
+                    "10605870" .
+
+<http://janvaclavik.cz/swe/page/country/Papua_New_Guinea>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Papua New Guinea"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Oceania"@en ;
+      dbp-pp:areaTotal  "462840" ;
+      dbp-prop:gdpNominalPerCapita
+                    "2200" ;
+      dbp-prop:populationEstimateYear
+                    "5670544" .
+
+<http://janvaclavik.cz/swe/page/country/Estonia>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Estonia"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Europe"@en ;
+      dbp-pp:areaTotal  "45226" ;
+      dbp-prop:gdpNominalPerCapita
+                    "12300" ;
+      dbp-prop:populationEstimateYear
+                    "1324333" .
+
+<http://janvaclavik.cz/swe/page/country/Hong_Kong>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Hong Kong"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "1092" ;
+      dbp-prop:gdpNominalPerCapita
+                    "28800" ;
+      dbp-prop:populationEstimateYear
+                    "6940432" .
+
+<http://janvaclavik.cz/swe/page/country/Uganda>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Uganda"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "236040" ;
+      dbp-prop:gdpNominalPerCapita
+                    "1400" ;
+      dbp-prop:populationEstimateYear
+                    "28195754" .
+
+<http://janvaclavik.cz/swe/page/country/Congo,_Democratic_Republic>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Congo, Democratic Republic"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "2345410" ;
+      dbp-prop:gdpNominalPerCapita
+                    "700" ;
+      dbp-prop:populationEstimateYear
+                    "62660551" .
+
+<http://janvaclavik.cz/swe/page/country/Thailand>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Thailand"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "514000" ;
+      dbp-prop:gdpNominalPerCapita
+                    "7400" ;
+      dbp-prop:populationEstimateYear
+                    "64631595" .
+
+<http://janvaclavik.cz/swe/page/country/Malawi>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Malawi"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "118480" ;
+      dbp-prop:gdpNominalPerCapita
+                    "600" ;
+      dbp-prop:populationEstimateYear
+                    "13013926" .
+
+<http://janvaclavik.cz/swe/page/country/Iran>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Iran"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "1648000" ;
+      dbp-prop:gdpNominalPerCapita
+                    "7000" ;
+      dbp-prop:populationEstimateYear
+                    "68688433" .
+
+<http://janvaclavik.cz/swe/page/country/British_Virgin_Island>
+      rdf:type      dbp:Country ;
+      rdfs:label    "British Virgin Island"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "South America"@en ;
+      dbp-pp:areaTotal  "153" ;
+      dbp-prop:gdpNominalPerCapita
+                    "16000" ;
+      dbp-prop:populationEstimateYear
+                    "23098" .
+
+<http://janvaclavik.cz/swe/page/country/Sierra_Leone>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Sierra Leone"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "71740" ;
+      dbp-prop:gdpNominalPerCapita
+                    "500" ;
+      dbp-prop:populationEstimateYear
+                    "6005250" .
+
+<http://janvaclavik.cz/swe/page/country/Serbia>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Serbia"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Europe"@en ;
+      dbp-pp:areaTotal  "88361" ;
+      dbp-prop:gdpNominalPerCapita
+                    "2200" ;
+      dbp-prop:populationEstimateYear
+                    "9396411" .
+
+<http://janvaclavik.cz/swe/page/country/Malta>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Malta"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Europe"@en ;
+      dbp-pp:areaTotal  "316" ;
+      dbp-prop:gdpNominalPerCapita
+                    "17700" ;
+      dbp-prop:populationEstimateYear
+                    "400214" .
+
+<http://janvaclavik.cz/swe/page/country/Pakistan>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Pakistan"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "803940" ;
+      dbp-prop:gdpNominalPerCapita
+                    "2100" ;
+      dbp-prop:populationEstimateYear
+                    "165803560" .
+
+<http://janvaclavik.cz/swe/page/country/Poland>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Poland"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Europe"@en ;
+      dbp-pp:areaTotal  "312685" ;
+      dbp-prop:gdpNominalPerCapita
+                    "11100" ;
+      dbp-prop:populationEstimateYear
+                    "38536869" .
+
+<http://janvaclavik.cz/swe/page/country/Equatorial_Guinea>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Equatorial Guinea"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "28051" ;
+      dbp-prop:gdpNominalPerCapita
+                    "2700" ;
+      dbp-prop:populationEstimateYear
+                    "540109" .
+
+<http://janvaclavik.cz/swe/page/country/Cuba>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Cuba"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "South America"@en ;
+      dbp-pp:areaTotal  "110860" ;
+      dbp-prop:gdpNominalPerCapita
+                    "2900" ;
+      dbp-prop:populationEstimateYear
+                    "11382820" .
+
+<http://janvaclavik.cz/swe/page/country/Nepal>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Nepal"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "147181" ;
+      dbp-prop:gdpNominalPerCapita
+                    "1400" ;
+      dbp-prop:populationEstimateYear
+                    "28287147" .
+
+<http://janvaclavik.cz/swe/page/country/Ecuador>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Ecuador"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "South America"@en ;
+      dbp-pp:areaTotal  "283560" ;
+      dbp-prop:gdpNominalPerCapita
+                    "3300" ;
+      dbp-prop:populationEstimateYear
+                    "13547510" .
+
+<http://janvaclavik.cz/swe/page/country/Gibraltar>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Gibraltar"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Europe"@en ;
+      dbp-pp:areaTotal  "7" ;
+      dbp-prop:gdpNominalPerCapita
+                    "17500" ;
+      dbp-prop:populationEstimateYear
+                    "27928" .
+
+<http://janvaclavik.cz/swe/page/country/Kuwait>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Kuwait"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "17820" ;
+      dbp-prop:gdpNominalPerCapita
+                    "19000" ;
+      dbp-prop:populationEstimateYear
+                    "2418393" .
+
+<http://janvaclavik.cz/swe/page/country/Colombia>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Colombia"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "South America"@en ;
+      dbp-pp:areaTotal  "1138910" ;
+      dbp-prop:gdpNominalPerCapita
+                    "6300" ;
+      dbp-prop:populationEstimateYear
+                    "43593035" .
+
+<http://janvaclavik.cz/swe/page/country/Syria>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Syria"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "185180" ;
+      dbp-prop:gdpNominalPerCapita
+                    "3300" ;
+      dbp-prop:populationEstimateYear
+                    "18881361" .
+
+<http://janvaclavik.cz/swe/page/country/Greenland>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Greenland"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "North America"@en ;
+      dbp-pp:areaTotal  "2166086" ;
+      dbp-prop:gdpNominalPerCapita
+                    "20000" ;
+      dbp-prop:populationEstimateYear
+                    "56361" .
+
+<http://janvaclavik.cz/swe/page/country/Macau>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Macau"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "28" ;
+      dbp-prop:gdpNominalPerCapita
+                    "19400" ;
+      dbp-prop:populationEstimateYear
+                    "453125" .
+
+<http://janvaclavik.cz/swe/page/country/French_Polynesia>
+      rdf:type      dbp:Country ;
+      rdfs:label    "French Polynesia"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Oceania"@en ;
+      dbp-pp:areaTotal  "4167" ;
+      dbp-prop:gdpNominalPerCapita
+                    "17500" ;
+      dbp-prop:populationEstimateYear
+                    "274578" .
+
+<http://janvaclavik.cz/swe/page/country/Singapore>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Singapore"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "693" ;
+      dbp-prop:gdpNominalPerCapita
+                    "23700" ;
+      dbp-prop:populationEstimateYear
+                    "4492150" .
+
+<http://janvaclavik.cz/swe/page/country/Eritrea>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Eritrea"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "121320" ;
+      dbp-prop:gdpNominalPerCapita
+                    "700" ;
+      dbp-prop:populationEstimateYear
+                    "4786994" .
+
+<http://janvaclavik.cz/swe/page/country/Egypt>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Egypt"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "1001450" ;
+      dbp-prop:gdpNominalPerCapita
+                    "4000" ;
+      dbp-prop:populationEstimateYear
+                    "78887007" .
+
+<http://janvaclavik.cz/swe/page/country/Mozambique>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Mozambique"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "801590" ;
+      dbp-prop:gdpNominalPerCapita
+                    "1200" ;
+      dbp-prop:populationEstimateYear
+                    "19686505" .
+
+<http://janvaclavik.cz/swe/page/country/Anguilla>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Anguilla"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "South America"@en ;
+      dbp-pp:areaTotal  "102" ;
+      dbp-prop:gdpNominalPerCapita
+                    "8600" ;
+      dbp-prop:populationEstimateYear
+                    "13477" .
+
+<http://janvaclavik.cz/swe/page/country/Uruguay>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Uruguay"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "South America"@en ;
+      dbp-pp:areaTotal  "176220" ;
+      dbp-prop:gdpNominalPerCapita
+                    "12800" ;
+      dbp-prop:populationEstimateYear
+                    "3431932" .
+
+<http://janvaclavik.cz/swe/page/country/Zambia>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Zambia"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "752614" ;
+      dbp-prop:gdpNominalPerCapita
+                    "800" ;
+      dbp-prop:populationEstimateYear
+                    "11502010" .
+
+<http://janvaclavik.cz/swe/page/country/Iceland>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Iceland"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Europe"@en ;
+      dbp-pp:areaTotal  "103000" ;
+      dbp-prop:gdpNominalPerCapita
+                    "30900" ;
+      dbp-prop:populationEstimateYear
+                    "299388" .
+
+<http://janvaclavik.cz/swe/page/country/New_Caledonia>
+      rdf:type      dbp:Country ;
+      rdfs:label    "New Caledonia"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Oceania"@en ;
+      dbp-pp:areaTotal  "19060" ;
+      dbp-prop:gdpNominalPerCapita
+                    "15000" ;
+      dbp-prop:populationEstimateYear
+                    "219246" .
+
+<http://janvaclavik.cz/swe/page/country/United_States>
+      rdf:type      dbp:Country ;
+      rdfs:label    "United States"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "North America"@en ;
+      dbp-pp:areaTotal  "9631420" ;
+      dbp-prop:gdpNominalPerCapita
+                    "37800" ;
+      dbp-prop:populationEstimateYear
+                    "298444215" .
+
+<http://janvaclavik.cz/swe/page/country/Jamaica>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Jamaica"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "South America"@en ;
+      dbp-pp:areaTotal  "10991" ;
+      dbp-prop:gdpNominalPerCapita
+                    "3900" ;
+      dbp-prop:populationEstimateYear
+                    "2758124" .
+
+<http://janvaclavik.cz/swe/page/country/Fiji>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Fiji"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Oceania"@en ;
+      dbp-pp:areaTotal  "18270" ;
+      dbp-prop:gdpNominalPerCapita
+                    "5800" ;
+      dbp-prop:populationEstimateYear
+                    "905949" .
+
+<http://janvaclavik.cz/swe/page/country/Vanuatu>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Vanuatu"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Oceania"@en ;
+      dbp-pp:areaTotal  "12200" ;
+      dbp-prop:gdpNominalPerCapita
+                    "2900" ;
+      dbp-prop:populationEstimateYear
+                    "208869" .
+
+<http://janvaclavik.cz/swe/page/country/Guyana>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Guyana"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "South America"@en ;
+      dbp-pp:areaTotal  "214970" ;
+      dbp-prop:gdpNominalPerCapita
+                    "4000" ;
+      dbp-prop:populationEstimateYear
+                    "767245" .
+
+<http://janvaclavik.cz/swe/page/country/Netherlands>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Netherlands"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Europe"@en ;
+      dbp-pp:areaTotal  "41526" ;
+      dbp-prop:gdpNominalPerCapita
+                    "28600" ;
+      dbp-prop:populationEstimateYear
+                    "16491461" .
+
+<http://janvaclavik.cz/swe/page/country/Lebanon>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Lebanon"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "10400" ;
+      dbp-prop:gdpNominalPerCapita
+                    "4800" ;
+      dbp-prop:populationEstimateYear
+                    "3874050" .
+
+<http://janvaclavik.cz/swe/page/country/Sweden>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Sweden"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Europe"@en ;
+      dbp-pp:areaTotal  "449964" ;
+      dbp-prop:gdpNominalPerCapita
+                    "26800" ;
+      dbp-prop:populationEstimateYear
+                    "9016596" .
+
+<http://janvaclavik.cz/swe/page/country/Austria>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Austria"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Europe"@en ;
+      dbp-pp:areaTotal  "83870" ;
+      dbp-prop:gdpNominalPerCapita
+                    "30000" ;
+      dbp-prop:populationEstimateYear
+                    "8192880" .
+
+<http://janvaclavik.cz/swe/page/country/Armenia>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Armenia"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "29800" ;
+      dbp-prop:gdpNominalPerCapita
+                    "3500" ;
+      dbp-prop:populationEstimateYear
+                    "2976372" .
+
+<http://janvaclavik.cz/swe/page/country/Lesotho>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Lesotho"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "30355" ;
+      dbp-prop:gdpNominalPerCapita
+                    "3000" ;
+      dbp-prop:populationEstimateYear
+                    "2022331" .
+
+<http://janvaclavik.cz/swe/page/country/Latvia>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Latvia"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Europe"@en ;
+      dbp-pp:areaTotal  "64589" ;
+      dbp-prop:gdpNominalPerCapita
+                    "10200" ;
+      dbp-prop:populationEstimateYear
+                    "2274735" .
+
+<http://janvaclavik.cz/swe/page/country/Guernsey>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Guernsey"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Europe"@en ;
+      dbp-pp:areaTotal  "78" ;
+      dbp-prop:gdpNominalPerCapita
+                    "20000" ;
+      dbp-prop:populationEstimateYear
+                    "65409" .
+
+<http://janvaclavik.cz/swe/page/country/Montserrat>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Montserrat"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "South America"@en ;
+      dbp-pp:areaTotal  "102" ;
+      dbp-prop:gdpNominalPerCapita
+                    "3400" ;
+      dbp-prop:populationEstimateYear
+                    "9439" .
+
+<http://janvaclavik.cz/swe/page/country/Kiribati>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Kiribati"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Oceania"@en ;
+      dbp-pp:areaTotal  "811" ;
+      dbp-prop:gdpNominalPerCapita
+                    "800" ;
+      dbp-prop:populationEstimateYear
+                    "105432" .
+
+<http://janvaclavik.cz/swe/page/country/Guinea-Bissau>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Guinea-Bissau"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "36120" ;
+      dbp-prop:gdpNominalPerCapita
+                    "800" ;
+      dbp-prop:populationEstimateYear
+                    "1442029" .
+
+<http://janvaclavik.cz/swe/page/country/Slovakia>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Slovakia"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Europe"@en ;
+      dbp-pp:areaTotal  "48845" ;
+      dbp-prop:gdpNominalPerCapita
+                    "13300" ;
+      dbp-prop:populationEstimateYear
+                    "5439448" .
+
+<http://janvaclavik.cz/swe/page/country/Turkmenistan>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Turkmenistan"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "488100" ;
+      dbp-prop:gdpNominalPerCapita
+                    "5800" ;
+      dbp-prop:populationEstimateYear
+                    "5042920" .
+
+<http://janvaclavik.cz/swe/page/country/Tuvalu>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Tuvalu"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Oceania"@en ;
+      dbp-pp:areaTotal  "26" ;
+      dbp-prop:gdpNominalPerCapita
+                    "1100" ;
+      dbp-prop:populationEstimateYear
+                    "11810" .
+
+<http://janvaclavik.cz/swe/page/country/Zimbabwe>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Zimbabwe"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "390580" ;
+      dbp-prop:gdpNominalPerCapita
+                    "1900" ;
+      dbp-prop:populationEstimateYear
+                    "12236805" .
+
+<http://janvaclavik.cz/swe/page/country/Antigua_and_Barbuda>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Antigua and Barbuda"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "South America"@en ;
+      dbp-pp:areaTotal  "443" ;
+      dbp-prop:gdpNominalPerCapita
+                    "11000" ;
+      dbp-prop:populationEstimateYear
+                    "69108" .
+
+<http://janvaclavik.cz/swe/page/country/Palau>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Palau"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Oceania"@en ;
+      dbp-pp:areaTotal  "458" ;
+      dbp-prop:gdpNominalPerCapita
+                    "9000" ;
+      dbp-prop:populationEstimateYear
+                    "20579" .
+
+<http://janvaclavik.cz/swe/page/country/Burundi>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Burundi"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "27830" ;
+      dbp-prop:gdpNominalPerCapita
+                    "600" ;
+      dbp-prop:populationEstimateYear
+                    "8090068" .
+
+<http://janvaclavik.cz/swe/page/country/Gaza_Strip>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Gaza Strip"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "360" ;
+      dbp-prop:gdpNominalPerCapita
+                    "600" ;
+      dbp-prop:populationEstimateYear
+                    "1428757" .
+
+<http://janvaclavik.cz/swe/page/country/Taiwan>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Taiwan"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "35980" ;
+      dbp-prop:gdpNominalPerCapita
+                    "23400" ;
+      dbp-prop:populationEstimateYear
+                    "23036087" .
+
+<http://janvaclavik.cz/swe/page/country/Ghana>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Ghana"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "239460" ;
+      dbp-prop:gdpNominalPerCapita
+                    "2200" ;
+      dbp-prop:populationEstimateYear
+                    "22409572" .
+
+<http://janvaclavik.cz/swe/page/country/Liechtenstein>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Liechtenstein"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Europe"@en ;
+      dbp-pp:areaTotal  "160" ;
+      dbp-prop:gdpNominalPerCapita
+                    "25000" ;
+      dbp-prop:populationEstimateYear
+                    "33987" .
+
+<http://janvaclavik.cz/swe/page/country/Argentina>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Argentina"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "South America"@en ;
+      dbp-pp:areaTotal  "2766890" ;
+      dbp-prop:gdpNominalPerCapita
+                    "11200" ;
+      dbp-prop:populationEstimateYear
+                    "39921833" .
+
+<http://janvaclavik.cz/swe/page/country/Somalia>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Somalia"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "637657" ;
+      dbp-prop:gdpNominalPerCapita
+                    "500" ;
+      dbp-prop:populationEstimateYear
+                    "8863338" .
+
+<http://janvaclavik.cz/swe/page/country/United_Kingdom>
+      rdf:type      dbp:Country ;
+      rdfs:label    "United Kingdom"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Europe"@en ;
+      dbp-pp:areaTotal  "244820" ;
+      dbp-prop:gdpNominalPerCapita
+                    "27700" ;
+      dbp-prop:populationEstimateYear
+                    "60609153" .
+
+<http://janvaclavik.cz/swe/page/country/Croatia>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Croatia"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Europe"@en ;
+      dbp-pp:areaTotal  "56542" ;
+      dbp-prop:gdpNominalPerCapita
+                    "10600" ;
+      dbp-prop:populationEstimateYear
+                    "4494749" .
+
+<http://janvaclavik.cz/swe/page/country/Saudi_Arabia>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Saudi Arabia"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "1960582" ;
+      dbp-prop:gdpNominalPerCapita
+                    "11800" ;
+      dbp-prop:populationEstimateYear
+                    "27019731" .
+
+<http://janvaclavik.cz/swe/page/country/Kenya>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Kenya"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "582650" ;
+      dbp-prop:gdpNominalPerCapita
+                    "1000" ;
+      dbp-prop:populationEstimateYear
+                    "34707817" .
+
+<http://janvaclavik.cz/swe/page/country/Mexico>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Mexico"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "South America"@en ;
+      dbp-pp:areaTotal  "1972550" ;
+      dbp-prop:gdpNominalPerCapita
+                    "9000" ;
+      dbp-prop:populationEstimateYear
+                    "107449525" .
+
+<http://janvaclavik.cz/swe/page/country/Panama>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Panama"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "South America"@en ;
+      dbp-pp:areaTotal  "78200" ;
+      dbp-prop:gdpNominalPerCapita
+                    "6300" ;
+      dbp-prop:populationEstimateYear
+                    "3191319" .
+
+<http://janvaclavik.cz/swe/page/country/Belize>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Belize"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "South America"@en ;
+      dbp-pp:areaTotal  "22966" ;
+      dbp-prop:gdpNominalPerCapita
+                    "4900" ;
+      dbp-prop:populationEstimateYear
+                    "287730" .
+
+<http://janvaclavik.cz/swe/page/country/Russia>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Russia"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Europe"@en ;
+      dbp-pp:areaTotal  "17075200" ;
+      dbp-prop:gdpNominalPerCapita
+                    "8900" ;
+      dbp-prop:populationEstimateYear
+                    "142893540" .
+
+<http://janvaclavik.cz/swe/page/country/N._Mariana_Islands>
+      rdf:type      dbp:Country ;
+      rdfs:label    "N. Mariana Islands"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Oceania"@en ;
+      dbp-pp:areaTotal  "477" ;
+      dbp-prop:gdpNominalPerCapita
+                    "12500" ;
+      dbp-prop:populationEstimateYear
+                    "82459" .
+
+<http://janvaclavik.cz/swe/page/country/Cape_Verde>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Cape Verde"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "4033" ;
+      dbp-prop:gdpNominalPerCapita
+                    "1400" ;
+      dbp-prop:populationEstimateYear
+                    "420979" .
+
+<http://janvaclavik.cz/swe/page/country/Australia>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Australia"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Oceania"@en ;
+      dbp-pp:areaTotal  "7686850" ;
+      dbp-prop:gdpNominalPerCapita
+                    "29000" ;
+      dbp-prop:populationEstimateYear
+                    "20264082" .
+
+<http://janvaclavik.cz/swe/page/country/Moldova>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Moldova"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Europe"@en ;
+      dbp-pp:areaTotal  "33843" ;
+      dbp-prop:gdpNominalPerCapita
+                    "1800" ;
+      dbp-prop:populationEstimateYear
+                    "4466706" .
+
+<http://janvaclavik.cz/swe/page/country/Oman>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Oman"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "212460" ;
+      dbp-prop:gdpNominalPerCapita
+                    "13100" ;
+      dbp-prop:populationEstimateYear
+                    "3102229" .
+
+<http://janvaclavik.cz/swe/page/country/Cameroon>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Cameroon"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "475440" ;
+      dbp-prop:gdpNominalPerCapita
+                    "1800" ;
+      dbp-prop:populationEstimateYear
+                    "17340702" .
+
+<http://janvaclavik.cz/swe/page/country/Georgia>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Georgia"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Europe"@en ;
+      dbp-pp:areaTotal  "69700" ;
+      dbp-prop:gdpNominalPerCapita
+                    "2500" ;
+      dbp-prop:populationEstimateYear
+                    "4661473" .
+
+<http://janvaclavik.cz/swe/page/country/Cook_Islands>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Cook Islands"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Oceania"@en ;
+      dbp-pp:areaTotal  "240" ;
+      dbp-prop:gdpNominalPerCapita
+                    "5000" ;
+      dbp-prop:populationEstimateYear
+                    "21388" .
+
+<http://janvaclavik.cz/swe/page/country/Romania>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Romania"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Europe"@en ;
+      dbp-pp:areaTotal  "237500" ;
+      dbp-prop:gdpNominalPerCapita
+                    "7000" ;
+      dbp-prop:populationEstimateYear
+                    "22303552" .
+
+<http://janvaclavik.cz/swe/page/country/Central_African_Republic>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Central African Republic"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "622984" ;
+      dbp-prop:gdpNominalPerCapita
+                    "1100" ;
+      dbp-prop:populationEstimateYear
+                    "4303356" .
+
+<http://janvaclavik.cz/swe/page/country/Haiti>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Haiti"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "South America"@en ;
+      dbp-pp:areaTotal  "27750" ;
+      dbp-prop:gdpNominalPerCapita
+                    "1600" ;
+      dbp-prop:populationEstimateYear
+                    "8308504" .
+
+<http://janvaclavik.cz/swe/page/country/Libya>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Libya"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "1759540" ;
+      dbp-prop:gdpNominalPerCapita
+                    "6400" ;
+      dbp-prop:populationEstimateYear
+                    "5900754" .
+
+<http://janvaclavik.cz/swe/page/country/Azerbaijan>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Azerbaijan"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "86600" ;
+      dbp-prop:gdpNominalPerCapita
+                    "3400" ;
+      dbp-prop:populationEstimateYear
+                    "7961619" .
+
+<http://janvaclavik.cz/swe/page/country/Germany>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Germany"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Europe"@en ;
+      dbp-pp:areaTotal  "357021" ;
+      dbp-prop:gdpNominalPerCapita
+                    "27600" ;
+      dbp-prop:populationEstimateYear
+                    "82422299" .
+
+<http://janvaclavik.cz/swe/page/country/Chad>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Chad"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "1284000" ;
+      dbp-prop:gdpNominalPerCapita
+                    "1200" ;
+      dbp-prop:populationEstimateYear
+                    "9944201" .
+
+<http://janvaclavik.cz/swe/page/country/Gabon>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Gabon"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "267667" ;
+      dbp-prop:gdpNominalPerCapita
+                    "5500" ;
+      dbp-prop:populationEstimateYear
+                    "1424906" .
+
+<http://janvaclavik.cz/swe/page/country/Japan>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Japan"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "377835" ;
+      dbp-prop:gdpNominalPerCapita
+                    "28200" ;
+      dbp-prop:populationEstimateYear
+                    "127463611" .
+
+<http://janvaclavik.cz/swe/page/country/Cayman_Islands>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Cayman Islands"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "South America"@en ;
+      dbp-pp:areaTotal  "262" ;
+      dbp-prop:gdpNominalPerCapita
+                    "35000" ;
+      dbp-prop:populationEstimateYear
+                    "45436" .
+
+<http://janvaclavik.cz/swe/page/country/Samoa>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Samoa"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Oceania"@en ;
+      dbp-pp:areaTotal  "2944" ;
+      dbp-prop:gdpNominalPerCapita
+                    "5600" ;
+      dbp-prop:populationEstimateYear
+                    "176908" .
+
+<http://janvaclavik.cz/swe/page/country/Brunei>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Brunei"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "5770" ;
+      dbp-prop:gdpNominalPerCapita
+                    "18600" ;
+      dbp-prop:populationEstimateYear
+                    "379444" .
+
+<http://janvaclavik.cz/swe/page/country/Trinidad_and_Tobago>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Trinidad and Tobago"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "South America"@en ;
+      dbp-pp:areaTotal  "5128" ;
+      dbp-prop:gdpNominalPerCapita
+                    "9500" ;
+      dbp-prop:populationEstimateYear
+                    "1065842" .
+
+<http://janvaclavik.cz/swe/page/country/United_Arab_Emirates>
+      rdf:type      dbp:Country ;
+      rdfs:label    "United Arab Emirates"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "82880" ;
+      dbp-prop:gdpNominalPerCapita
+                    "23200" ;
+      dbp-prop:populationEstimateYear
+                    "2602713" .
+
+<http://janvaclavik.cz/swe/page/country/Aruba>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Aruba"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "South America"@en ;
+      dbp-pp:areaTotal  "193" ;
+      dbp-prop:gdpNominalPerCapita
+                    "28000" ;
+      dbp-prop:populationEstimateYear
+                    "71891" .
+
+<http://janvaclavik.cz/swe/page/country/Sao_Tome_and_Principe>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Sao Tome and Principe"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "1001" ;
+      dbp-prop:gdpNominalPerCapita
+                    "1200" ;
+      dbp-prop:populationEstimateYear
+                    "193413" .
+
+<http://janvaclavik.cz/swe/page/country/Nauru>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Nauru"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Oceania"@en ;
+      dbp-pp:areaTotal  "21" ;
+      dbp-prop:gdpNominalPerCapita
+                    "5000" ;
+      dbp-prop:populationEstimateYear
+                    "13287" .
+
+<http://janvaclavik.cz/swe/page/country/Kyrgyzstan>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Kyrgyzstan"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "198500" ;
+      dbp-prop:gdpNominalPerCapita
+                    "1600" ;
+      dbp-prop:populationEstimateYear
+                    "5213898" .
+
+<http://janvaclavik.cz/swe/page/country/Kazakhstan>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Kazakhstan"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "2717300" ;
+      dbp-prop:gdpNominalPerCapita
+                    "6300" ;
+      dbp-prop:populationEstimateYear
+                    "15233244" .
+
+<http://janvaclavik.cz/swe/page/country/Comoros>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Comoros"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "2170" ;
+      dbp-prop:gdpNominalPerCapita
+                    "700" ;
+      dbp-prop:populationEstimateYear
+                    "690948" .
+
+<http://janvaclavik.cz/swe/page/country/India>
+      rdf:type      dbp:Country ;
+      rdfs:label    "India"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "3287590" ;
+      dbp-prop:gdpNominalPerCapita
+                    "2900" ;
+      dbp-prop:populationEstimateYear
+                    "1095351995" .
+
+<http://janvaclavik.cz/swe/page/country/American_Samoa>
+      rdf:type      dbp:Country ;
+      rdfs:label    "American Samoa"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Oceania"@en ;
+      dbp-pp:areaTotal  "199" ;
+      dbp-prop:gdpNominalPerCapita
+                    "8000" ;
+      dbp-prop:populationEstimateYear
+                    "57794" .
+
+<http://janvaclavik.cz/swe/page/country/Peru>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Peru"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "South America"@en ;
+      dbp-pp:areaTotal  "1285220" ;
+      dbp-prop:gdpNominalPerCapita
+                    "5100" ;
+      dbp-prop:populationEstimateYear
+                    "28302603" .
+
+<http://janvaclavik.cz/swe/page/country/Sri_Lanka>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Sri Lanka"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "65610" ;
+      dbp-prop:gdpNominalPerCapita
+                    "3700" ;
+      dbp-prop:populationEstimateYear
+                    "20222240" .
+
+<http://janvaclavik.cz/swe/page/country/Swaziland>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Swaziland"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "17363" ;
+      dbp-prop:gdpNominalPerCapita
+                    "4900" ;
+      dbp-prop:populationEstimateYear
+                    "1136334" .
+
+<http://janvaclavik.cz/swe/page/country/Solomon_Islands>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Solomon Islands"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Oceania"@en ;
+      dbp-pp:areaTotal  "28450" ;
+      dbp-prop:gdpNominalPerCapita
+                    "1700" ;
+      dbp-prop:populationEstimateYear
+                    "552438" .
+
+<http://janvaclavik.cz/swe/page/country/Congo,_Republic_of_the>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Congo, Republic of the"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "342000" ;
+      dbp-prop:gdpNominalPerCapita
+                    "700" ;
+      dbp-prop:populationEstimateYear
+                    "3702314" .
+
+<http://janvaclavik.cz/swe/page/country/Tajikistan>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Tajikistan"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "143100" ;
+      dbp-prop:gdpNominalPerCapita
+                    "1000" ;
+      dbp-prop:populationEstimateYear
+                    "7320815" .
+
+<http://janvaclavik.cz/swe/page/country/Chile>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Chile"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "South America"@en ;
+      dbp-pp:areaTotal  "756950" ;
+      dbp-prop:gdpNominalPerCapita
+                    "9900" ;
+      dbp-prop:populationEstimateYear
+                    "16134219" .
+
+<http://janvaclavik.cz/swe/page/country/Algeria>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Algeria"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "2381740" ;
+      dbp-prop:gdpNominalPerCapita
+                    "6000" ;
+      dbp-prop:populationEstimateYear
+                    "32930091" .
+
+<http://janvaclavik.cz/swe/page/country/Western_Sahara>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Western Sahara"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "266000" ;
+      dbp-prop:populationEstimateYear
+                    "273008" .
+
+<http://janvaclavik.cz/swe/page/country/Mali>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Mali"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "1240000" ;
+      dbp-prop:gdpNominalPerCapita
+                    "900" ;
+      dbp-prop:populationEstimateYear
+                    "11716829" .
+
+<http://janvaclavik.cz/swe/page/country/Bermuda>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Bermuda"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "North America"@en ;
+      dbp-pp:areaTotal  "53" ;
+      dbp-prop:gdpNominalPerCapita
+                    "36000" ;
+      dbp-prop:populationEstimateYear
+                    "65773" .
+
+<http://janvaclavik.cz/swe/page/country/Spain>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Spain"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Europe"@en ;
+      dbp-pp:areaTotal  "504782" ;
+      dbp-prop:gdpNominalPerCapita
+                    "22000" ;
+      dbp-prop:populationEstimateYear
+                    "40397842" .
+
+<http://janvaclavik.cz/swe/page/country/Seychelles>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Seychelles"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "455" ;
+      dbp-prop:gdpNominalPerCapita
+                    "7800" ;
+      dbp-prop:populationEstimateYear
+                    "81541" .
+
+<http://janvaclavik.cz/swe/page/country/Guinea>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Guinea"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "245857" ;
+      dbp-prop:gdpNominalPerCapita
+                    "2100" ;
+      dbp-prop:populationEstimateYear
+                    "9690222" .
+
+<http://janvaclavik.cz/swe/page/country/Gambia>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Gambia"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "11300" ;
+      dbp-prop:gdpNominalPerCapita
+                    "1700" ;
+      dbp-prop:populationEstimateYear
+                    "1641564" .
+
+<http://janvaclavik.cz/swe/page/country/Mauritius>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Mauritius"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "2040" ;
+      dbp-prop:gdpNominalPerCapita
+                    "11400" ;
+      dbp-prop:populationEstimateYear
+                    "1240827" .
+
+<http://janvaclavik.cz/swe/page/country/Paraguay>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Paraguay"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "South America"@en ;
+      dbp-pp:areaTotal  "406750" ;
+      dbp-prop:gdpNominalPerCapita
+                    "4700" ;
+      dbp-prop:populationEstimateYear
+                    "6506464" .
+
+<http://janvaclavik.cz/swe/page/country/Virgin_Islands>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Virgin Islands"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "South America"@en ;
+      dbp-pp:areaTotal  "1910" ;
+      dbp-prop:gdpNominalPerCapita
+                    "17200" ;
+      dbp-prop:populationEstimateYear
+                    "108605" .
+
+<http://janvaclavik.cz/swe/page/country/Mayotte>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Mayotte"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "374" ;
+      dbp-prop:gdpNominalPerCapita
+                    "2600" ;
+      dbp-prop:populationEstimateYear
+                    "201234" .
+
+<http://janvaclavik.cz/swe/page/country/Barbados>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Barbados"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "South America"@en ;
+      dbp-pp:areaTotal  "431" ;
+      dbp-prop:gdpNominalPerCapita
+                    "15700" ;
+      dbp-prop:populationEstimateYear
+                    "279912" .
+
+<http://janvaclavik.cz/swe/page/country/Yemen>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Yemen"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "527970" ;
+      dbp-prop:gdpNominalPerCapita
+                    "800" ;
+      dbp-prop:populationEstimateYear
+                    "21456188" .
+
+<http://janvaclavik.cz/swe/page/country/Albania>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Albania"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Europe"@en ;
+      dbp-pp:areaTotal  "28748" ;
+      dbp-prop:gdpNominalPerCapita
+                    "4500" ;
+      dbp-prop:populationEstimateYear
+                    "3581655" .
+
+<http://janvaclavik.cz/swe/page/country/Niger>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Niger"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "1267000" ;
+      dbp-prop:gdpNominalPerCapita
+                    "800" ;
+      dbp-prop:populationEstimateYear
+                    "12525094" .
+
+<http://janvaclavik.cz/swe/page/country/Isle_of_Man>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Isle of Man"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Europe"@en ;
+      dbp-pp:areaTotal  "572" ;
+      dbp-prop:gdpNominalPerCapita
+                    "21000" ;
+      dbp-prop:populationEstimateYear
+                    "75441" .
+
+<http://janvaclavik.cz/swe/page/country/Sudan>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Sudan"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "2505810" ;
+      dbp-prop:gdpNominalPerCapita
+                    "1900" ;
+      dbp-prop:populationEstimateYear
+                    "41236378" .
+
+<http://janvaclavik.cz/swe/page/country/Guam>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Guam"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Oceania"@en ;
+      dbp-pp:areaTotal  "541" ;
+      dbp-prop:gdpNominalPerCapita
+                    "21000" ;
+      dbp-prop:populationEstimateYear
+                    "171019" .
+
+<http://janvaclavik.cz/swe/page/country/Maldives>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Maldives"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "300" ;
+      dbp-prop:gdpNominalPerCapita
+                    "3900" ;
+      dbp-prop:populationEstimateYear
+                    "359008" .
+
+<http://janvaclavik.cz/swe/page/country/Switzerland>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Switzerland"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Europe"@en ;
+      dbp-pp:areaTotal  "41290" ;
+      dbp-prop:gdpNominalPerCapita
+                    "32700" ;
+      dbp-prop:populationEstimateYear
+                    "7523934" .
+
+<http://janvaclavik.cz/swe/page/country/Qatar>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Qatar"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "11437" ;
+      dbp-prop:gdpNominalPerCapita
+                    "21500" ;
+      dbp-prop:populationEstimateYear
+                    "885359" .
+
+<http://janvaclavik.cz/swe/page/country/Guatemala>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Guatemala"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "South America"@en ;
+      dbp-pp:areaTotal  "108890" ;
+      dbp-prop:gdpNominalPerCapita
+                    "4100" ;
+      dbp-prop:populationEstimateYear
+                    "12293545" .
+
+<http://janvaclavik.cz/swe/page/country/Afghanistan>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Afghanistan"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "647500" ;
+      dbp-prop:gdpNominalPerCapita
+                    "700" ;
+      dbp-prop:populationEstimateYear
+                    "31056997" .
+
+<http://janvaclavik.cz/swe/page/country/Philippines>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Philippines"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "300000" ;
+      dbp-prop:gdpNominalPerCapita
+                    "4600" ;
+      dbp-prop:populationEstimateYear
+                    "89468677" .
+
+<http://janvaclavik.cz/swe/page/country/West_Bank>
+      rdf:type      dbp:Country ;
+      rdfs:label    "West Bank"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "5860" ;
+      dbp-prop:gdpNominalPerCapita
+                    "800" ;
+      dbp-prop:populationEstimateYear
+                    "2460492" .
+
+<http://janvaclavik.cz/swe/page/country/Togo>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Togo"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "56785" ;
+      dbp-prop:gdpNominalPerCapita
+                    "1500" ;
+      dbp-prop:populationEstimateYear
+                    "5548702" .
+
+<http://janvaclavik.cz/swe/page/country/Rwanda>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Rwanda"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "26338" ;
+      dbp-prop:gdpNominalPerCapita
+                    "1300" ;
+      dbp-prop:populationEstimateYear
+                    "8648248" .
+
+<http://janvaclavik.cz/swe/page/country/Namibia>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Namibia"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "825418" ;
+      dbp-prop:gdpNominalPerCapita
+                    "7200" ;
+      dbp-prop:populationEstimateYear
+                    "2044147" .
+
+<http://janvaclavik.cz/swe/page/country/Bosnia_&_Herzegovina>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Bosnia & Herzegovina"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Europe"@en ;
+      dbp-pp:areaTotal  "51129" ;
+      dbp-prop:gdpNominalPerCapita
+                    "6100" ;
+      dbp-prop:populationEstimateYear
+                    "4498976" .
+
+<http://janvaclavik.cz/swe/page/country/Saint_Vincent_and_the_Grenadines>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Saint Vincent and the Grenadines"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "South America"@en ;
+      dbp-pp:areaTotal  "389" ;
+      dbp-prop:gdpNominalPerCapita
+                    "2900" ;
+      dbp-prop:populationEstimateYear
+                    "117848" .
+
+<http://janvaclavik.cz/swe/page/country/Venezuela>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Venezuela"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "South America"@en ;
+      dbp-pp:areaTotal  "912050" ;
+      dbp-prop:gdpNominalPerCapita
+                    "4800" ;
+      dbp-prop:populationEstimateYear
+                    "25730435" .
+
+<http://janvaclavik.cz/swe/page/country/Suriname>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Suriname"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "South America"@en ;
+      dbp-pp:areaTotal  "163270" ;
+      dbp-prop:gdpNominalPerCapita
+                    "4000" ;
+      dbp-prop:populationEstimateYear
+                    "439117" .
+
+<http://janvaclavik.cz/swe/page/country/Nicaragua>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Nicaragua"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "South America"@en ;
+      dbp-pp:areaTotal  "129494" ;
+      dbp-prop:gdpNominalPerCapita
+                    "2300" ;
+      dbp-prop:populationEstimateYear
+                    "5570129" .
+
+<http://janvaclavik.cz/swe/page/country/Angola>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Angola"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "1246700" ;
+      dbp-prop:gdpNominalPerCapita
+                    "1900" ;
+      dbp-prop:populationEstimateYear
+                    "12127071" .
+
+<http://janvaclavik.cz/swe/page/country/Brazil>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Brazil"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "South America"@en ;
+      dbp-pp:areaTotal  "8511965" ;
+      dbp-prop:gdpNominalPerCapita
+                    "7600" ;
+      dbp-prop:populationEstimateYear
+                    "188078227" .
+
+<http://janvaclavik.cz/swe/page/country/Reunion>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Reunion"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "2517" ;
+      dbp-prop:gdpNominalPerCapita
+                    "5800" ;
+      dbp-prop:populationEstimateYear
+                    "787584" .
+
+<http://janvaclavik.cz/swe/page/country/Malaysia>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Malaysia"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "329750" ;
+      dbp-prop:gdpNominalPerCapita
+                    "9000" ;
+      dbp-prop:populationEstimateYear
+                    "24385858" .
+
+<http://janvaclavik.cz/swe/page/country/Czech_Republic>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Czech Republic"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Europe"@en ;
+      dbp-pp:areaTotal  "78866" ;
+      dbp-prop:gdpNominalPerCapita
+                    "15700" ;
+      dbp-prop:populationEstimateYear
+                    "10235455" .
+
+<http://janvaclavik.cz/swe/page/country/East_Timor>
+      rdf:type      dbp:Country ;
+      rdfs:label    "East Timor"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "15007" ;
+      dbp-prop:gdpNominalPerCapita
+                    "500" ;
+      dbp-prop:populationEstimateYear
+                    "1062777" .
+
+<http://janvaclavik.cz/swe/page/country/Bahamas>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Bahamas"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "South America"@en ;
+      dbp-pp:areaTotal  "13940" ;
+      dbp-prop:gdpNominalPerCapita
+                    "16700" ;
+      dbp-prop:populationEstimateYear
+                    "303770" .
+
+<http://janvaclavik.cz/swe/page/country/Tunisia>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Tunisia"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "163610" ;
+      dbp-prop:gdpNominalPerCapita
+                    "6900" ;
+      dbp-prop:populationEstimateYear
+                    "10175014" .
+
+<http://janvaclavik.cz/swe/page/country/Canada>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Canada"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "North America"@en ;
+      dbp-pp:areaTotal  "9984670" ;
+      dbp-prop:gdpNominalPerCapita
+                    "29800" ;
+      dbp-prop:populationEstimateYear
+                    "33098932" .
+
+<http://janvaclavik.cz/swe/page/country/Lithuania>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Lithuania"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Europe"@en ;
+      dbp-pp:areaTotal  "65200" ;
+      dbp-prop:gdpNominalPerCapita
+                    "11400" ;
+      dbp-prop:populationEstimateYear
+                    "3585906" .
+
+<http://janvaclavik.cz/swe/page/country/Uzbekistan>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Uzbekistan"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "447400" ;
+      dbp-prop:gdpNominalPerCapita
+                    "1700" ;
+      dbp-prop:populationEstimateYear
+                    "27307134" .
+
+<http://janvaclavik.cz/swe/page/country/Greece>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Greece"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Europe"@en ;
+      dbp-pp:areaTotal  "131940" ;
+      dbp-prop:gdpNominalPerCapita
+                    "20000" ;
+      dbp-prop:populationEstimateYear
+                    "10688058" .
+
+<http://janvaclavik.cz/swe/page/country/St_Pierre_&_Miquelon>
+      rdf:type      dbp:Country ;
+      rdfs:label    "St Pierre & Miquelon"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "North America"@en ;
+      dbp-pp:areaTotal  "242" ;
+      dbp-prop:gdpNominalPerCapita
+                    "6900" ;
+      dbp-prop:populationEstimateYear
+                    "7026" .
+
+<http://janvaclavik.cz/swe/page/country/Cambodia>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Cambodia"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "181040" ;
+      dbp-prop:gdpNominalPerCapita
+                    "1900" ;
+      dbp-prop:populationEstimateYear
+                    "13881427" .
+
+<http://janvaclavik.cz/swe/page/country/Djibouti>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Djibouti"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "23000" ;
+      dbp-prop:gdpNominalPerCapita
+                    "1300" ;
+      dbp-prop:populationEstimateYear
+                    "486530" .
+
+<http://janvaclavik.cz/swe/page/country/Benin>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Benin"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "112620" ;
+      dbp-prop:gdpNominalPerCapita
+                    "1100" ;
+      dbp-prop:populationEstimateYear
+                    "7862944" .
+
+<http://janvaclavik.cz/swe/page/country/Marshall_Islands>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Marshall Islands"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Oceania"@en ;
+      dbp-pp:areaTotal  "11854" ;
+      dbp-prop:gdpNominalPerCapita
+                    "1600" ;
+      dbp-prop:populationEstimateYear
+                    "60422" .
+
+<http://janvaclavik.cz/swe/page/country/Guadeloupe>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Guadeloupe"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "South America"@en ;
+      dbp-pp:areaTotal  "1780" ;
+      dbp-prop:gdpNominalPerCapita
+                    "8000" ;
+      dbp-prop:populationEstimateYear
+                    "452776" .
+
+<http://janvaclavik.cz/swe/page/country/Burkina_Faso>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Burkina Faso"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "274200" ;
+      dbp-prop:gdpNominalPerCapita
+                    "1100" ;
+      dbp-prop:populationEstimateYear
+                    "13902972" .
+
+<http://janvaclavik.cz/swe/page/country/New_Zealand>
+      rdf:type      dbp:Country ;
+      rdfs:label    "New Zealand"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Oceania"@en ;
+      dbp-pp:areaTotal  "268680" ;
+      dbp-prop:gdpNominalPerCapita
+                    "21600" ;
+      dbp-prop:populationEstimateYear
+                    "4076140" .
+
+<http://janvaclavik.cz/swe/page/country/Bangladesh>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Bangladesh"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "144000" ;
+      dbp-prop:gdpNominalPerCapita
+                    "1900" ;
+      dbp-prop:populationEstimateYear
+                    "147365352" .
+
+<http://janvaclavik.cz/swe/page/country/Vietnam>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Vietnam"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "329560" ;
+      dbp-prop:gdpNominalPerCapita
+                    "2500" ;
+      dbp-prop:populationEstimateYear
+                    "84402966" .
+
+<http://janvaclavik.cz/swe/page/country/Burma>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Burma"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "678500" ;
+      dbp-prop:gdpNominalPerCapita
+                    "1800" ;
+      dbp-prop:populationEstimateYear
+                    "47382633" .
+
+<http://janvaclavik.cz/swe/page/country/Martinique>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Martinique"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "South America"@en ;
+      dbp-pp:areaTotal  "1100" ;
+      dbp-prop:gdpNominalPerCapita
+                    "14400" ;
+      dbp-prop:populationEstimateYear
+                    "436131" .
+
+<http://janvaclavik.cz/swe/page/country/Luxembourg>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Luxembourg"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Europe"@en ;
+      dbp-pp:areaTotal  "2586" ;
+      dbp-prop:gdpNominalPerCapita
+                    "55100" ;
+      dbp-prop:populationEstimateYear
+                    "474413" .
+
+<http://janvaclavik.cz/swe/page/country/Andorra>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Andorra"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Europe"@en ;
+      dbp-pp:areaTotal  "468" ;
+      dbp-prop:gdpNominalPerCapita
+                    "19000" ;
+      dbp-prop:populationEstimateYear
+                    "71201" .
+
+<http://janvaclavik.cz/swe/page/country/Dominican_Republic>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Dominican Republic"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "South America"@en ;
+      dbp-pp:areaTotal  "48730" ;
+      dbp-prop:gdpNominalPerCapita
+                    "6000" ;
+      dbp-prop:populationEstimateYear
+                    "9183984" .
+
+<http://janvaclavik.cz/swe/page/country/Norway>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Norway"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Europe"@en ;
+      dbp-pp:areaTotal  "323802" ;
+      dbp-prop:gdpNominalPerCapita
+                    "37800" ;
+      dbp-prop:populationEstimateYear
+                    "4610820" .
+
+<http://janvaclavik.cz/swe/page/country/Botswana>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Botswana"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "600370" ;
+      dbp-prop:gdpNominalPerCapita
+                    "9000" ;
+      dbp-prop:populationEstimateYear
+                    "1639833" .
+
+<http://janvaclavik.cz/swe/page/country/Ireland>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Ireland"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Europe"@en ;
+      dbp-pp:areaTotal  "70280" ;
+      dbp-prop:gdpNominalPerCapita
+                    "29600" ;
+      dbp-prop:populationEstimateYear
+                    "4062235" .
+
+<http://janvaclavik.cz/swe/page/country/Italy>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Italy"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Europe"@en ;
+      dbp-pp:areaTotal  "301230" ;
+      dbp-prop:gdpNominalPerCapita
+                    "26700" ;
+      dbp-prop:populationEstimateYear
+                    "58133509" .
+
+<http://janvaclavik.cz/swe/page/country/Finland>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Finland"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Europe"@en ;
+      dbp-pp:areaTotal  "338145" ;
+      dbp-prop:gdpNominalPerCapita
+                    "27400" ;
+      dbp-prop:populationEstimateYear
+                    "5231372" .
+
+<http://janvaclavik.cz/swe/page/country/South_Africa>
+      rdf:type      dbp:Country ;
+      rdfs:label    "South Africa"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "1219912" ;
+      dbp-prop:gdpNominalPerCapita
+                    "10700" ;
+      dbp-prop:populationEstimateYear
+                    "44187637" .
+
+<http://janvaclavik.cz/swe/page/country/Morocco>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Morocco"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "446550" ;
+      dbp-prop:gdpNominalPerCapita
+                    "4000" ;
+      dbp-prop:populationEstimateYear
+                    "33241259" .
+
+<http://janvaclavik.cz/swe/page/country/Bahrain>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Bahrain"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "665" ;
+      dbp-prop:gdpNominalPerCapita
+                    "16900" ;
+      dbp-prop:populationEstimateYear
+                    "698585" .
+
+<http://janvaclavik.cz/swe/page/country/French_Guiana>
+      rdf:type      dbp:Country ;
+      rdfs:label    "French Guiana"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "South America"@en ;
+      dbp-pp:areaTotal  "91000" ;
+      dbp-prop:gdpNominalPerCapita
+                    "8300" ;
+      dbp-prop:populationEstimateYear
+                    "199509" .
+
+<http://janvaclavik.cz/swe/page/country/Saint_Lucia>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Saint Lucia"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "South America"@en ;
+      dbp-pp:areaTotal  "616" ;
+      dbp-prop:gdpNominalPerCapita
+                    "5400" ;
+      dbp-prop:populationEstimateYear
+                    "168458" .
+
+<http://janvaclavik.cz/swe/page/country/Mauritania>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Mauritania"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "1030700" ;
+      dbp-prop:gdpNominalPerCapita
+                    "1800" ;
+      dbp-prop:populationEstimateYear
+                    "3177388" .
+
+<http://janvaclavik.cz/swe/page/country/Cote_d_Ivoire>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Cote d Ivoire"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "322460" ;
+      dbp-prop:gdpNominalPerCapita
+                    "1400" ;
+      dbp-prop:populationEstimateYear
+                    "17654843" .
+
+<http://janvaclavik.cz/swe/page/country/Madagascar>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Madagascar"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "587040" ;
+      dbp-prop:gdpNominalPerCapita
+                    "800" ;
+      dbp-prop:populationEstimateYear
+                    "18595469" .
+
+<http://janvaclavik.cz/swe/page/country/Korea,_North>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Korea, North"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "120540" ;
+      dbp-prop:gdpNominalPerCapita
+                    "1300" ;
+      dbp-prop:populationEstimateYear
+                    "23113019" .
+
+<http://janvaclavik.cz/swe/page/country/Slovenia>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Slovenia"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Europe"@en ;
+      dbp-pp:areaTotal  "20273" ;
+      dbp-prop:gdpNominalPerCapita
+                    "19000" ;
+      dbp-prop:populationEstimateYear
+                    "2010347" .
+
+<http://janvaclavik.cz/swe/page/country/Saint_Helena>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Saint Helena"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "413" ;
+      dbp-prop:gdpNominalPerCapita
+                    "2500" ;
+      dbp-prop:populationEstimateYear
+                    "7502" .
+
+<http://janvaclavik.cz/swe/page/country/Turkey>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Turkey"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "780580" ;
+      dbp-prop:gdpNominalPerCapita
+                    "6700" ;
+      dbp-prop:populationEstimateYear
+                    "70413958" .
+
+<http://janvaclavik.cz/swe/page/country/France>
+      rdf:type      dbp:Country ;
+      rdfs:label    "France"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Europe"@en ;
+      dbp-pp:areaTotal  "547030" ;
+      dbp-prop:gdpNominalPerCapita
+                    "27600" ;
+      dbp-prop:populationEstimateYear
+                    "60876136" .
+
+<http://janvaclavik.cz/swe/page/country/Belgium>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Belgium"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Europe"@en ;
+      dbp-pp:areaTotal  "30528" ;
+      dbp-prop:gdpNominalPerCapita
+                    "29100" ;
+      dbp-prop:populationEstimateYear
+                    "10379067" .
+
+<http://janvaclavik.cz/swe/page/country/Korea,_South>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Korea, South"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "98480" ;
+      dbp-prop:gdpNominalPerCapita
+                    "17800" ;
+      dbp-prop:populationEstimateYear
+                    "48846823" .
+
+<http://janvaclavik.cz/swe/page/country/Ethiopia>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Ethiopia"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "1127127" ;
+      dbp-prop:gdpNominalPerCapita
+                    "700" ;
+      dbp-prop:populationEstimateYear
+                    "74777981" .
+
+<http://janvaclavik.cz/swe/page/country/Hungary>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Hungary"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Europe"@en ;
+      dbp-pp:areaTotal  "93030" ;
+      dbp-prop:gdpNominalPerCapita
+                    "13900" ;
+      dbp-prop:populationEstimateYear
+                    "9981334" .
+
+<http://janvaclavik.cz/swe/page/country/Bolivia>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Bolivia"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "South America"@en ;
+      dbp-pp:areaTotal  "1098580" ;
+      dbp-prop:gdpNominalPerCapita
+                    "2400" ;
+      dbp-prop:populationEstimateYear
+                    "8989046" .
+
+<http://janvaclavik.cz/swe/page/country/Denmark>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Denmark"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Europe"@en ;
+      dbp-pp:areaTotal  "43094" ;
+      dbp-prop:gdpNominalPerCapita
+                    "31100" ;
+      dbp-prop:populationEstimateYear
+                    "5450661" .
+
+<http://janvaclavik.cz/swe/page/country/Tonga>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Tonga"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Oceania"@en ;
+      dbp-pp:areaTotal  "748" ;
+      dbp-prop:gdpNominalPerCapita
+                    "2200" ;
+      dbp-prop:populationEstimateYear
+                    "114689" .
+
+<http://janvaclavik.cz/swe/page/country/Costa_Rica>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Costa Rica"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "South America"@en ;
+      dbp-pp:areaTotal  "51100" ;
+      dbp-prop:gdpNominalPerCapita
+                    "9100" ;
+      dbp-prop:populationEstimateYear
+                    "4075261" .
+
+<http://janvaclavik.cz/swe/page/country/Grenada>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Grenada"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "South America"@en ;
+      dbp-pp:areaTotal  "344" ;
+      dbp-prop:gdpNominalPerCapita
+                    "5000" ;
+      dbp-prop:populationEstimateYear
+                    "89703" .
+
+<http://janvaclavik.cz/swe/page/country/Puerto_Rico>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Puerto Rico"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "South America"@en ;
+      dbp-pp:areaTotal  "13790" ;
+      dbp-prop:gdpNominalPerCapita
+                    "16800" ;
+      dbp-prop:populationEstimateYear
+                    "3927188" .
+
+<http://janvaclavik.cz/swe/page/country/China>
+      rdf:type      dbp:Country ;
+      rdfs:label    "China"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "9596960" ;
+      dbp-prop:gdpNominalPerCapita
+                    "5000" ;
+      dbp-prop:populationEstimateYear
+                    "1313973713" .
+
+<http://janvaclavik.cz/swe/page/country/Monaco>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Monaco"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Europe"@en ;
+      dbp-pp:areaTotal  "2" ;
+      dbp-prop:gdpNominalPerCapita
+                    "27000" ;
+      dbp-prop:populationEstimateYear
+                    "32543" .
+
+<http://janvaclavik.cz/swe/page/country/Mongolia>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Mongolia"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "1564116" ;
+      dbp-prop:gdpNominalPerCapita
+                    "1800" ;
+      dbp-prop:populationEstimateYear
+                    "2832224" .
+
+<http://janvaclavik.cz/swe/page/country/Iraq>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Iraq"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "437072" ;
+      dbp-prop:gdpNominalPerCapita
+                    "1500" ;
+      dbp-prop:populationEstimateYear
+                    "26783383" .
+
+<http://janvaclavik.cz/swe/page/country/Jersey>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Jersey"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Europe"@en ;
+      dbp-pp:areaTotal  "116" ;
+      dbp-prop:gdpNominalPerCapita
+                    "24800" ;
+      dbp-prop:populationEstimateYear
+                    "91084" .
+
+<http://janvaclavik.cz/swe/page/country/Senegal>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Senegal"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Africa"@en ;
+      dbp-pp:areaTotal  "196190" ;
+      dbp-prop:gdpNominalPerCapita
+                    "1600" ;
+      dbp-prop:populationEstimateYear
+                    "11987121" .
+
+<http://janvaclavik.cz/swe/page/country/Israel>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Israel"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "20770" ;
+      dbp-prop:gdpNominalPerCapita
+                    "19800" ;
+      dbp-prop:populationEstimateYear
+                    "6352117" .
+
+<http://janvaclavik.cz/swe/page/country/Honduras>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Honduras"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "South America"@en ;
+      dbp-pp:areaTotal  "112090" ;
+      dbp-prop:gdpNominalPerCapita
+                    "2600" ;
+      dbp-prop:populationEstimateYear
+                    "7326496" .
+
+<http://janvaclavik.cz/swe/page/country/Jordan>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Jordan"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Asia"@en ;
+      dbp-pp:areaTotal  "92300" ;
+      dbp-prop:gdpNominalPerCapita
+                    "4300" ;
+      dbp-prop:populationEstimateYear
+                    "5906760" .
+
+<http://janvaclavik.cz/swe/page/country/Wallis_and_Futuna>
+      rdf:type      dbp:Country ;
+      rdfs:label    "Wallis and Futuna"@en ;
+      rdfs:subClassOf  dbp:Continent ;
+      dbp:Continent  "Oceania"@en ;
+      dbp-pp:areaTotal  "274" ;
+      dbp-prop:gdpNominalPerCapita
+                    "3700" ;
+      dbp-prop:populationEstimateYear
+                    "16025" .

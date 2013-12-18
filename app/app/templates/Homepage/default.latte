@@ -1,0 +1,28 @@
+{block content}
+
+<h2>List of UNESCO sights</h2>
+<table class="table" width="100%">
+    <thead>
+    <tr>
+        <th>Num</th>
+        <th>UNESCO sight</th>
+        <th>Country</th>
+        <th>Continent</th>
+    </tr>
+    </thead>
+    <tbody>
+    {foreach (array) $unescoList->getRows() as $row}
+        <tr>
+            <td></td>
+            <td>
+                <strong><a n:href="Homepage:unesco, id => urlencode($row['unescoName'])">{$row["unescoName"]|striptags}</a></strong>
+                (<a href="https://www.google.cz/search?q={$row["unescoName"]|url}&hl=cs&biw=1&tbm=isch&bih=1&site=imghp">images</a>)
+            </td>
+            <td><a n:href="Homepage:country, id=> $row['countryName']">{$row["countryName"]}</a></td>
+            <td><a n:href="Homepage:continent, id=> $row['continentName']">{$row["continentName"]}</a></td>
+        </tr>
+    {/foreach}
+    </tbody>
+</table>
+
+

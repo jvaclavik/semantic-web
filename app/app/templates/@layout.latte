@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <title>SWE | UNESCO</title>
+    {block head}{/block}
+
+    <link rel="stylesheet" media="screen,projection,tv" href="{$basePath}/css/demo_page.css" />
+    <link rel="stylesheet" media="screen,projection,tv" href="{$basePath}/css/demo_table.css" />
+
+    <script type="text/javascript" language="javascript" src="{$basePath}/js/jquery.js"></script>
+    <script type="text/javascript" language="javascript" src="{$basePath}/js/jquery.dataTables.js"></script>
+    <script type="text/javascript" charset="utf-8">
+        $(document).ready(function() {
+            $('.table').dataTable({
+                "iDisplayLength": 1000,
+                "fnRowCallback": function( nRow, aData, iDisplayIndex, iDisplayIndexFull ) {
+                    var index = iDisplayIndex +1;
+                    $('td:eq(0)',nRow).html(index);
+                    return nRow;
+                }
+
+            });
+
+        } );
+    </script>
+    <style>
+        body{ margin:20px}
+        table, td, th {
+            border-collapse: collapse;
+            border: solid 1px #aaa;
+            padding: 7px
+        }
+
+        th {
+            background: #eee
+        }
+
+    </style>
+</head>
+<body>
+<h1>UNESCO sights</h1>
+
+<ul>
+    <li><a n:href="Homepage:">List of UNESCO sights</a></li>
+    <li><a n:href="Homepage:countryWithMostOfSights">Countries with most of UNESCO</a></li>
+    <li><a n:href="Homepage:continentWithMostOfSights">Continents with most of UNESCO</a></li>
+</ul>
+<div n:foreach="$flashes as $flash" class="flash {$flash->type}">{$flash->message}</div>
+
+{include #content}
+</body>
+</html>

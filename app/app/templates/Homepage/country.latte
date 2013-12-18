@@ -1,0 +1,21 @@
+
+{block content}
+
+
+
+    {foreach (array) $country->getRows() as $row}
+        <h2>{$row["countryName"]}</h2>
+        <p>Continent: <strong>{$row["continentName"]}</strong></p>
+        <p>GDP: <strong>{$row["gdp"]}</strong></p>
+        <p>Area: <strong>{$row["area"]}</strong> km<sup>2</sup></p>
+        <p>Population: <strong>{$row["population"]}</strong></p>
+
+        <h3>Unesco sight in {$row["countryName"]}</h3>
+        <ul>
+            {foreach (array) $unescos->getRows() as $rowu}
+                <li><a n:href="Homepage:unesco, id => $rowu['unescoName']">{$rowu["unescoName"]|striptags}</a></li>
+            {/foreach}
+        </ul>
+    {/foreach}
+
+{/block}

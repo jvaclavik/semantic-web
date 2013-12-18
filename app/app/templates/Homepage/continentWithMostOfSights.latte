@@ -1,0 +1,32 @@
+{block content}
+
+<h2>List of the continents with most of UNESCO sights</h2>
+<table class="table" width="100%">
+    <thead>
+    <tr>
+
+        <th>Position</th>
+        <th>Continent</th>
+        <th>Area (km<sup>2</sup>)</th>
+        <th>Number of UNESCO</th>
+
+        <th>Number of UNESCO / km<sup>2</sup></th>
+    </tr>
+    </thead>
+    <tbody>
+    {foreach (array) $mostOfSights->getRows() as $row}
+        <tr>
+            <td></td>
+            <td>
+                <strong><a n:href="Homepage:continent, id => $row['continentName']">{$row["continentName"]|striptags}</a></strong>
+
+            </td>
+            <td>{$row["area"]}</td>
+            <td>{$row["count"]}</td>
+            <td>{($row["count"]/$row["area"])|number:8}</td>
+        </tr>
+    {/foreach}
+    </tbody>
+</table>
+
+

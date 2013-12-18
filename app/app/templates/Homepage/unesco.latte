@@ -1,0 +1,21 @@
+
+{block content}
+
+
+    <h2>{$countryName}</h2>
+    {foreach (array) $unesco->getRows() as $row}
+
+        <p>{$row["description"]}</p>
+        <p>Category: <strong>{$row["category"]}</strong></p>
+        <p>Year of inscribed: <strong>{$row["yearInscribed"]}</strong></p>
+
+        <!--<p>Latitude: <strong>{$row["latitude"]}</strong></p>
+        <p>Longitude: <strong>{$row["longitude"]}</strong></p>-->
+        <p><a href="https://maps.google.com/?q={$row["latitude"]},%20{$row["longitude"]}">Show on map</a></p>
+        <p><strong>Country: {$row["countryName"]}</strong></p>
+        (<a href="https://www.google.cz/search?q={$row["unescoName"]|url}&hl=cs&biw=1&tbm=isch&bih=1&site=imghp">images</a>)
+
+
+    {/foreach}
+
+{/block}

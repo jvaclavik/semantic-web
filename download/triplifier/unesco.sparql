@@ -1,0 +1,35 @@
+PREFIX dbp: <http://dbpedia.org/ontology/>
+PREFIX dbp-pp: <http://dbpedia.org/ontology/PopulatedPlace/>
+PREFIX dbp-prop: <http://dbpedia.org/property/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <http://schema.org/>
+
+
+CONSTRUCT {
+    
+  ?UNESCO_URI a dbp:WorldHeritageSite;
+    
+    rdfs:label ?name_en2;
+    schema:longitude ?longitude;
+    schema:latitude ?latitude;
+    schema:description ?short_description_en_without_tags;
+    rdfs:subClassOf dbp:Country;
+    dbp:Country ?states_name_en2;
+    dbp:type ?category;
+    dbp:year ?date_inscribed;
+
+    .
+
+}
+FROM <file:../cache/unesco.csv>
+WHERE {
+  BIND (STRLANG(?name_en, "en") AS ?name_en2)
+  BIND (STRLANG(?states_name_en, "en") AS ?states_name_en2)
+  BIND (REPLACE(?short_description_en, "<[/]*[a-zA-Z[_/]*]*>","") AS ?short_description_en_without_tags)
+  BIND (REPLACE(REPLACE(ENCODE_FOR_URI(?name_en),' ', '_'), '(<[/]*[a-zA-Z[_/]*]*>)|,|( ,The)|"|(\\.)|(\')|(|)|(/)|(\\.)|:|’', '') AS ?name_en_for_url)
+  BIND (URI(CONCAT('http://janvaclavik.cz/swe/page/unesco/', ?name_en_for_url)) AS ?UNESCO_URI)
+
+
+}
+OFFSET 1

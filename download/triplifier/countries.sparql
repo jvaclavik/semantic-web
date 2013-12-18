@@ -1,0 +1,26 @@
+PREFIX dbp: <http://dbpedia.org/ontology/>
+PREFIX dbp-pp: <http://dbpedia.org/ontology/PopulatedPlace/>
+PREFIX dbp-prop: <http://dbpedia.org/property/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX my: <http://janvaclavik.cz/swe/ontology/>
+PREFIX schema: <http://schema.org/>
+
+CONSTRUCT {
+  ?COUNTRY_URI a dbp:Country;
+    rdfs:subClassOf dbp:Continent;
+    rdfs:label ?CountryWithLang;
+    dbp-pp:areaTotal ?Area_square_km;
+    dbp-pp:populationDensity ?Pop_density;
+    dbp-prop:populationEstimateYear ?Population;
+    dbp-prop:gdpNominalPerCapita ?GDP_in_dollars_per_capita;
+    dbp:Continent ?ContinentWithLang;
+    .
+}
+FROM <file:../cache/countries.csv>
+WHERE {
+  BIND (URI(REPLACE(CONCAT('http://janvaclavik.cz/swe/page/country/', ?Country), ' ', '_')) AS ?COUNTRY_URI)
+  BIND (STRLANG(?Country, "en") AS ?CountryWithLang)
+  BIND (STRLANG(?Region, "en") AS ?ContinentWithLang)
+}
+OFFSET 1

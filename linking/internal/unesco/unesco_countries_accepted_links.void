@@ -1,0 +1,37 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+
+
+
+
+:Countries rdf:type void:Dataset ;
+    dcterms:title "Countries";
+    dcterms:description "Statistical data about countries";
+    dcterms:created "2013-12-15"^^xsd:date;
+    dcterms:publisher :Jan_Vaclavik;
+
+:Unesco rdf:type void:Dataset ;
+    dcterms:title "Unesco";
+    dcterms:description "Statistical data about Unesco sights";
+    dcterms:created "2013-12-15"^^xsd:date;
+    dcterms:publisher :Jan_Vaclavik;
+
+:Jan_Vaclavik a foaf:Person;
+    rdfs:label "Jan Václavík";
+    foaf:mbox <mailto:vaclaja7@fit.cvut.cz>;
+    .
+
+
+<http://janvaclavik.cz/swe/semestral/linking/internal/continents/countries_unesco_accepted_links.nt> a void:Linkset;
+    void:subjectsTarget <http://janvaclavik.cz/swe/semestral/download/output/unesco.rdf>;
+    void:objectsTarget <http://janvaclavik.cz/swe/semestral/download/output/countries.rdf>;
+    void:triples 748;
+    void:linkPredicate rdfs:subClassOf;
+
+    .

@@ -1,0 +1,52 @@
+====== UNESCO památky ======
+
+===== Datasety =====
+
+  * **Seznam UNESCO památek** (+ informace jako popisky, typ památky, rok přidání nebo GPS souřadnice)
+  * **Seznam zemí** (+ informace jako rozloha, HDP nebo počet obyvatel)
+  * **Seznam kontinentů** (+ informace jako rozloha, počet obyvatel, hustota)
+
+Parsování: Java
+
+Triplifikace: Tarql
+
+
+===== Slovníky =====
+
+  * [[http://dbpedia.org]]
+    * Country
+    * Continent
+    * WorldHeritageSite
+  * [[http://schema.org]]
+    * GeoCoordinates
+
+===== Publikování dat =====
+  * Mikrodata
+  * RDFa
+
+===== Linkování =====
+Linkováno pomocí SILKu
+  - párování datasetů mezi sebou
+  - párování s externím zdrojem: linkedgeodata.org
+
+
+
+===== Aplikace =====
+  * PHP, Nette, Sesame
+===== Seznam UNESCO památek =====
+
+{{:student:vaclaja7:sni_mek_obrazovky_2013-12-17_v 23.00.25.png|}}
+
+===== Seznam zemí s nejvíce UNESCO památkami =====
+{{:student:vaclaja7:sni_mek_obrazovky_2013-12-17_v 23.15.48.png|}}
+
+    * Největší hustotu památek na km2 má **San Marino**! :-)
+
+
+===== Seznam kontinentů s nejvíce UNESCO památkami =====
+
+{{:student:vaclaja7:sni_mek_obrazovky_2013-12-17_v 23.17.09.png|}}
+
+
+===== Detailní informace o kontinentu =====
+{{:student:vaclaja7:sni_mek_obrazovky_2013-12-17_v 23.18.28.png|}}

@@ -1,0 +1,31 @@
+
+{block content}
+
+
+
+    {foreach (array) $continent->getRows() as $row}
+        <h2>{$row["continentName"]}</h2>
+        <p>Area: <strong>{$row["area"]} km<sup>2</sup></strong></p>
+        <p>Population: <strong>{$row["population"]}</strong></p>
+        <p>Population density: <strong>{$row["density"]}</strong></p>
+
+
+
+        <h3>Countries in {$row["continentName"]}</h3>
+        <ul>
+            {foreach (array) $countries->getRows() as $rowc}
+                <li><a n:href="Homepage:country, id => $rowc['countryName']">{$rowc["countryName"]|striptags}</a></li>
+            {/foreach}
+        </ul>
+
+        <h3>UNESCO's in {$row["continentName"]}</h3>
+        <ul>
+
+            {foreach (array) $unescos->getRows() as $rowu}
+                <li><a n:href="Homepage:unesco, id => $rowu['unescoName']">{$rowu["unescoName"]|striptags}</a></li>
+
+            {/foreach}
+        </ul>
+    {/foreach}
+
+{/block}

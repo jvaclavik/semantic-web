@@ -1,0 +1,7 @@
+{
+    "require": {
+        "nette/nette": "@dev",
+        "kdyby/autowired": "@dev",
+        "stekycz/nette-sesame": "@dev"
+    }
+}

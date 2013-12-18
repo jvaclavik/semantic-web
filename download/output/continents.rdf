@@ -1,0 +1,63 @@
+@prefix schema:  <http://schema.org/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbp-pp:  <http://dbpedia.org/ontology/PopulatedPlace/> .
+@prefix dbp:     <http://dbpedia.org/ontology/> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dbp-prop:  <http://dbpedia.org/property/> .
+@prefix my:      <http://janvaclavik.cz/swe/ontology/> .
+
+<http://janvaclavik.cz/swe/page/continent/Asia>
+      rdf:type      dbp:Continent ;
+      rdfs:label    "Asia"@en ;
+      dbp-pp:areaTotal  "43820000" ;
+      dbp-pp:density  "95.0" ;
+      dbp-prop:population
+                    "4164252000" .
+
+<http://janvaclavik.cz/swe/page/continent/Oceania>
+      rdf:type      dbp:Continent ;
+      rdfs:label    "Oceania"@en ;
+      dbp-pp:areaTotal  "9008500" ;
+      dbp-pp:density  "3.2" ;
+      dbp-prop:population
+                    "29127000" .
+
+<http://janvaclavik.cz/swe/page/continent/Antarctica>
+      rdf:type      dbp:Continent ;
+      rdfs:label    "Antarctica"@en ;
+      dbp-pp:areaTotal  "13720000" ;
+      dbp-pp:density  "0.00007" ;
+      dbp-prop:population
+                    "1000" .
+
+<http://janvaclavik.cz/swe/page/continent/Europe>
+      rdf:type      dbp:Continent ;
+      rdfs:label    "Europe"@en ;
+      dbp-pp:areaTotal  "10180000" ;
+      dbp-pp:density  "72.5" ;
+      dbp-prop:population
+                    "738199000" .
+
+<http://janvaclavik.cz/swe/page/continent/South_America>
+      rdf:type      dbp:Continent ;
+      rdfs:label    "South America"@en ;
+      dbp-pp:areaTotal  "17840000" ;
+      dbp-pp:density  "22.0" ;
+      dbp-prop:population
+                    "392555000" .
+
+<http://janvaclavik.cz/swe/page/continent/Africa>
+      rdf:type      dbp:Continent ;
+      rdfs:label    "Africa"@en ;
+      dbp-pp:areaTotal  "30370000" ;
+      dbp-pp:density  "33.7" ;
+      dbp-prop:population
+                    "1022234000" .
+
+<http://janvaclavik.cz/swe/page/continent/North_America>
+      rdf:type      dbp:Continent ;
+      rdfs:label    "North America"@en ;
+      dbp-pp:areaTotal  "24490000" ;
+      dbp-pp:density  "22.1" ;
+      dbp-prop:population
+                    "542056000" .
